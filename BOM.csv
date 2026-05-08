@@ -1,0 +1,24 @@
+RefDes,Description,Footprint,Qty,Vendor,Vendor PN,Notes
+U1,Wireless SoC module 16/8 variant,Module-WROOM,1,Mouser,356-ESP32S3WRM1U,Sourced from official distributor
+U2,Linear LDO 1A fixed 3.3V,SOT-223-3,1,DigiKey,LM1117-3.3-IMP-NOPB,Stocked alternative; AMS1117 second-source possible
+J1,Type-C receptacle 2.0 only,USB-C-16P,1,DigiKey,GCT-USB4500-03-A,
+J2,microSD push-eject SMD,SD-PP-SMD,1,DigiKey,Hirose-DM3AT-SF-PEJM5,
+D1,Addressable RGB pixel,LED-5050-4,1,DigiKey,WS2812B-2020-CT,Reel quantity ordered for stock
+D2,Indicator green,LED-0805,1,DigiKey,150080GS75000,
+D3,Indicator red,LED-0805,1,DigiKey,150080RS75000,
+SW1,Tact 3x4x2 SMD reset,SW-SMD-2P,1,LCSC,C318884,
+SW2,Tact 3x4x2 SMD boot,SW-SMD-2P,1,LCSC,C318884,
+P1,2.54mm header strip 1x40,HDR-2.54-40,2,LCSC,BOOMELE-2.54-1*40P,Cut to length per side
+C1,Bulk 22uF 6.3V X5R 0805,CAP-0805,2,Mouser,Murata-GRM21BR60J226ME39L,LDO out and in
+C2,Decoupling 10uF 10V X5R 0603,CAP-0603,7,Mouser,Murata-GRM188R61A106KE69D,Per IC supply
+C3,HF bypass 100nF 50V X7R 0603,CAP-0603,16,LCSC,Yageo-CC0603KRX7R9BB104,
+R1,Pull resistor 10k 1% 0603,RES-0603,12,LCSC,Uniroyal-0603WAF1002T5E,
+R2,Series resistor 1k 1% 0603,RES-0603,8,LCSC,Uniroyal-0603WAF1001T5E,
+R3,LED limit 330R 1% 0603,RES-0603,8,LCSC,Uniroyal-0603WAF3300T5E,
+R4,USB-C CC 5.1k 1% 0603,RES-0603,2,LCSC,Uniroyal-0603WAF5101T5E,
+PCB,2-layer 1.6mm HASL,80x70mm,5,JLCPCB,custom,Stencil included in this order
+,Solder paste SAC305 Type 4,500g jar,1,LCSC,Mechanic-XG50,
+,Iron tip 900M-T-I,Hakko-style,1,Local,-,Bench supply
+,Tweezers fine point,ESD curved,1,Local,-,
+,Hot plate 200W controller,bench unit,1,Local,-,Already on bench; not in BOM cost
+,Reflow profile log,doc,1,-,-,Saved to lab-notes
